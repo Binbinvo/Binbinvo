@@ -96,8 +96,8 @@ function thisCode()
         end
         local CoreGui = game:GetService("StarterGui")
         CoreGui:SetCore("SendNotification", {
-            Title = "teleport fruit",
-            Text = "Subscribe To binbinvogaming and churoblox and nptscript",
+            Title = "Auto Chest",
+            Text = "Subscribe To binbinvogaming",
             Duration = math.huge,
             Callback = AllowRunServiceBind,
         })
@@ -105,7 +105,7 @@ function thisCode()
 
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "teleport fruit",
+        Title = "Auto Chest",
         Text = "Subscribe To binbinvogaming",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
@@ -122,7 +122,7 @@ function thisCode()
                     if hasCrewTag then hasCrewTag:Destroy() end
                     local hasHumanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
                     if hasHumanoid then
-                        local Chest = game.Workspace:FindFirstChild("fruit4") or game.Workspace:FindFirstChild("fruit3") or game.Workspace:FindFirstChild("fruit2") or game.Workspace:FindFirstChild("fruit1") or game.Workspace:FindFirstChild("teleportfruit")
+                        local Chest = game.Workspace:FindFirstChild("Chest4") or game.Workspace:FindFirstChild("Chest3") or game.Workspace:FindFirstChild("Chest2") or game.Workspace:FindFirstChild("Chest1") or game.Workspace:FindFirstChild("Chest")
                         
                         if Chest then
                             game.Players.LocalPlayer.Character:PivotTo(Chest:GetPivot())
